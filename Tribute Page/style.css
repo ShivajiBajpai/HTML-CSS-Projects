@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EEE;
+}
+
+.container{
+    margin-inline: 20%;
+    background-color: #97e3de;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+header{
+    margin-inline: 2.5%;
+    box-shadow: 5px 5px 5px #073737;
+    padding-top: 5px;
+    width: 95%;
+    border-radius: 8px;
+    background-image: linear-gradient(left to right, #108989, #096262);
+    border: 1px solid #096262;
+}
+h1{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 3rem;
+}
+
+.container img{
+    margin-inline: 5%;
+}
+
+.about-section{
+    margin-inline: 2.5%;
+    box-shadow: 5px 5px 5px #073737;
+    
+    width: 95%;
+    border-radius: 8px;
+    background-image: linear-gradient(left to right, #108989, #096262);
+    margin-top: 10px;
+    padding: 0 25px;
+    justify-self: first baseline;
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+ul{
+    /* list-style: none; */
+    list-style-type: "👉";
+}
+footer{
+    margin-inline: 2.5%;
+    box-shadow: 5px 5px 5px #073737;
+    padding-top: 5px;
+    width: 95%;
+    border-radius: 8px;
+    background-image: linear-gradient(left to right, #108989, #096262);
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    height: 3rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Web Form</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form action="#">
+                    <div class="name-section section">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="email-section section">
+                        <label for="email">Enter Your Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="age-section section">
+                        <label for="age">Enter Your Age</label>
+                        <input type="number" name="age" id="age" min="10" max="100">
+                    </div>
+                    <div class="profession-section section">
+                        <label for="profession">Select Your Profession</label>
+                        <select name="profession" id="profession">
+                            <option value="Student">Student</option>
+                            <option value="Intern">Intern</option>
+                            <option value="Professional">Professional</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="feedback-section section">
+                        <fieldset style="border: 0; margin: 0; padding: 0;">
+                            <legend>Did you like the page</legend>
+                            <label for="feedback1">
+                                <input type="radio" name="feedback" id="feedback1">Yes
+                            </label>
+
+                            <label for="feedback2">
+                                <input type="radio" name="feedback" id="feedback2">No
+                            </label>
+                            <label for="feedback3">
+                                <input type="radio" name="feedback" id="feedback3">May be
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="language-section section">
+                        <fieldset style="border: 0; margin: 0; padding: 0;">
+                            <legend>Select your favorite languages</legend>
+                            <label for="java"><input type="checkbox" name="java" id="java">Java</label>
+
+                            <label for="javaScript"><input type="checkbox" name="javaScript" id="javaScript">JavaScript</label>
+                            
+                            <label for="python"><input type="checkbox" name="python" id="python">Python</label>
+                            
+                            <label for="react"><input type="checkbox" name="react" id="react">React</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="text-area section">
+                        <label for="explaination">Enter your comment</label>
+                        <textarea name="explanation" id="explanation" cols="50" rows="1"></textarea>
+                    </div>
+
+                    <div class="submit-section">
+                        <input type="submit" value="Submit">
+                    </div>
+
+
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

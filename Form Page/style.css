@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background: rgb(120, 256, 150);
+}
+
+.container{
+    width: 40%;
+    height: 90vh;
+    
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(120, 256, 150);
+    padding: 3% 0;
+    color: #000;
+    min-height: 15vh;
+}
+
+header{
+    min-height: 15vh;
+}
+
+.form-container{
+    height: 80vh;
+    min-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(80, 220, 100, 0.5);
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 8px 8px 15px rgb(120, 200, 125);
+    color: #000;
+}
+
+form{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 1rem;
+    gap: 1rem;    
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+input{
+    height: 2rem;
+}
+
+select{
+    height: 2rem;
+}
+
+fieldset{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    
+}
+
+
+fieldset > label > input{
+    margin-right: 0.3rem;
+}
+
+input[type="submit"]{
+    margin-top: 0.8rem;
+    width: 27rem;
+    /* text-transform: capitalize; */
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(120, 256, 150);
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px;
+
+}
